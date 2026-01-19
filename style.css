@@ -11,7 +11,7 @@
 
 nav{
     padding: 1rem;
-    background-color: #33FF99;
+    background-color: #ffffff;
 }
 
 .nav-con{
@@ -41,7 +41,7 @@ nav{
 }
 
 .maincontent{
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .maincontent-con{
