@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #33FF99;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo a{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 2rem;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.maincontent{
+    background-color: skyblue;
+}
+
+.maincontent-con{
+    display: flex;
+}
+
+.maincontent-info{
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontent-info h3{
+    font-size: 2rem;
+}
+
+.maincontent-info p{
+    margin: 1rem 0 ;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: red;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.maincontent-img{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 5px;
+}
+/*บรรทัดใหม่*/
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: Srem;
+}
+
+.content-item img{
+    width: 70%;
+}
+
+.content-item h4{
+    margin: 1rem 0;
+}
+
+.content-item p{
+    margin: 1rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    color: red;
+    background-color: #33FF99;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.footer-top{
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: rgba(30, 232, 232, 0.686);
+    color: black;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: antiquewhite;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item :nth-child(2) h4,
+.footer-top-item :nth-child(3) h4{
+    margin-bottom: 1rem;
+}
+
+.footer-button{
+    background-color:   gold;
+    padding: 1rem;
+    text-align: center;
+}
